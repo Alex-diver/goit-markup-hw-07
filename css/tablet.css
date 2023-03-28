@@ -1,0 +1,72 @@
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 766px;
+	}
+	.hero {
+		height: 436px;
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-tab.jpg);
+	}
+	@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-tab-2x.jpg);
+		}
+	}
+
+	.hero-title {
+		width: 496px;
+		font-size: 56px;
+		line-height: 1.07;
+		margin-bottom: 36px;
+	}
+
+	.about-title {
+		text-align: start;
+	}
+	.about-text {
+		width: 356px;
+	}
+	.blok-list {
+		row-gap: 64px;
+	}
+
+	.customers-logo-link {
+		width: 168px;
+	}
+	.customers-list {
+		column-gap: var(--basic-margin);
+	}
+	.footrer-blok {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.footer-logo {
+		margin-left: 90px;
+	}
+
+	.footer-text {
+		margin-right: var(--basic-margin);
+		margin-left: 90px;
+	}
+	.footer-social-list {
+		margin-bottom: 0;
+	}
+	.footer-form {
+		text-align: start;
+	}
+	.footer-media {
+		text-align: start;
+	}
+	.input-form-email {
+		width: 264px;
+		margin-right: 24px;
+	}
+	.footer-email {
+		display: flex;
+	}
+	.footer-telegram {
+		margin-left: 90px;
+	}
+	.input-form-email {
+		margin-bottom: 0;
+	}
+}
