@@ -99,53 +99,46 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--logo-color);
-	margin-right: 76px;
 }
 .header-logo span {
 	color: var(--secondary-logo-color);
 }
-.header-list {
-	display: flex;
-	gap: 40px;
+.header-item {
+	margin-bottom: 40px;
 }
+
 .header-link {
-	display: block;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
+	display: flex;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
-	position: relative;
-	padding: 24px 0;
 	color: #2e2f42;
+	margin-top: 32px;
+	margin-left: 40px;
 }
 .header-link.active {
 	color: #404bbf;
 }
-.header-link.active::after {
-	content: "";
-	width: 100%;
-	height: 4px;
-	border-radius: 2px;
-	background-color: #404bbf;
-	position: absolute;
-	left: 0;
-	bottom: -1px;
-}
+
 .header-link:hover,
 :focus {
 	color: #404bbf;
 }
 .header-address {
 	display: flex;
+	flex-wrap: wrap;
 	margin-left: auto;
 }
 .header-link-meil {
 	font-style: normal;
-	font-size: 16px;
-	line-height: 1.5;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #434455;
-	padding: 24px 0 24px 40px;
+	padding-left: 40px;
+	order: 1;
 }
 .header-link-meil:hover,
 .header-link-meil:focus {
@@ -153,15 +146,59 @@ body {
 }
 .header-link-tel {
 	font-style: normal;
-	font-size: 16px;
-	line-height: 1.5;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #434455;
-	padding: 24px 0 24px 40px;
+	padding: 284px 0 40px 40px;
 }
 .header-link-tel:hover,
 .header-link-tel:focus {
 	color: #404bbf;
+}
+.header-nav-wrap {
+	background-color: #ffffff;
+	max-width: 480px;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+.header-btn-mobail {
+	/* margin-left: auto; */
+	/* margin-top: 24px;
+	margin-bottom: 24px;
+	margin-right: 16px; */
+	margin: 24px 16px 24px 0;
+	border: none;
+	background-color: transparent;
+}
+
+.heder-btn-modal-close {
+	display: flex;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	background: #e7e9fc;
+	border: 1px solid #2e2f42;
+	padding: 0;
+	margin-left: auto;
+	margin-top: 24px;
+	margin-right: 24px;
+}
+.heder-btn-modal-close:is(:hover, :focus) {
+	background: #404bbf;
+	fill: #ffffff;
+}
+.heder-social-list {
+	display: flex;
+	padding-left: 40px;
+	gap: 56px;
+	margin-top: 48px;
 }
 /* ---------------------Hero--------------------- */
 .hero {
