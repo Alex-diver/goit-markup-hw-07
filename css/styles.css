@@ -87,14 +87,8 @@ body {
 	display: flex;
 	align-items: center;
 }
-
 .header-nav-wrap.is-open {
 	transform: translateX(100%);
-}
-.is-open {
-	opacity: 0;
-	visibility: hidden;
-	pointer-events: none;
 }
 .header-navigation {
 	display: flex;
@@ -116,9 +110,6 @@ body {
 .header-logo span {
 	color: var(--secondary-logo-color);
 }
-.header-item {
-}
-
 .header-nav-wrap {
 	background-color: #ffffff;
 	max-width: 480px;
@@ -141,7 +132,6 @@ body {
 .header-link.active {
 	color: #404bbf;
 }
-
 .header-link:hover,
 :focus {
 	color: #404bbf;
@@ -180,13 +170,11 @@ body {
 .header-link-tel:focus {
 	color: #404bbf;
 }
-
 .header-btn-mobail {
 	margin: 24px 16px 24px 249px;
 	border: none;
 	background-color: transparent;
 }
-
 .heder-btn-modal-close {
 	display: flex;
 	width: 24px;
