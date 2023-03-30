@@ -52,6 +52,10 @@
 		left: 0;
 		bottom: -1px;
 	}
+
+	.header-nav-wrap.is-open {
+		transform: translateX(0%);
+	}
 	.header-nav-wrap {
 		display: flex;
 		align-items: center;
