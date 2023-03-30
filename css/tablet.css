@@ -6,17 +6,21 @@
 		margin-right: 120px;
 	}
 	.header-link-meil {
+		font-weight: 400;
 		font-size: 12px;
 		line-height: 1.17;
 		order: unset;
-		padding-left: 121px;
-		padding-bottom: 12px;
+		margin-top: 16px;
+		margin-left: 121px;
 	}
 	.header-link-tel {
+		font-weight: 400;
 		font-size: 12px;
 		line-height: 1.17;
 		padding: unset;
-		padding-left: 121px;
+		margin-top: 12px;
+		margin-bottom: 16px;
+		margin-left: 121px;
 	}
 
 	.header-list {

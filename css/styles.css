@@ -90,7 +90,6 @@ body {
 .header-navigation {
 	display: flex;
 	align-items: center;
-	/* margin-top: 32px; */
 }
 .header-list {
 	display: grid;
@@ -141,7 +140,7 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #434455;
-	padding-left: 40px;
+	margin-left: 40px;
 	order: 1;
 }
 .header-link-meil:hover,
@@ -155,7 +154,9 @@ body {
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #434455;
-	padding: 284px 0 40px 40px;
+	margin-top: 284px;
+	margin-bottom: 40px;
+	margin-left: 40px;
 }
 .header-link-tel:hover,
 .header-link-tel:focus {
@@ -170,12 +171,9 @@ body {
 	right: 0;
 	top: 0;
 }
+
 .header-btn-mobail {
-	/* margin-left: auto; */
-	/* margin-top: 24px;
-	margin-bottom: 24px;
-	margin-right: 16px; */
-	margin: 24px 16px 24px 0;
+	margin: 24px 16px 24px 249px;
 	border: none;
 	background-color: transparent;
 }
