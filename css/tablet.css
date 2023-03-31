@@ -140,4 +140,7 @@
 	.input-form-email {
 		margin-bottom: 0;
 	}
+	.modal {
+		width: 408px;
+	}
 }

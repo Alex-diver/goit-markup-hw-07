@@ -2,9 +2,13 @@
 	.container {
 		max-width: 428px;
 	}
-	/* .hero {
-		width: 100%;
-	} */
+	.header-link-tel {
+		font-size: 36px;
+		margin-top: 284px;
+	}
+	.heder-social-list {
+		gap: 56px;
+	}
 	.hero-title {
 		width: 320px;
 	}
@@ -21,6 +25,22 @@
 
 	.input-form-email {
 		width: 398px;
+	}
+	.modal {
+		width: 392px;
+	}
+	.mobal-title {
+		font-size: 16px;
+	}
+	.form-label-checkbox {
+		display: flex;
+		align-items: center;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: calc(14 / 12);
+		letter-spacing: 0.04em;
+		color: #8e8f99;
+		margin-bottom: 24px;
 	}
 }
 

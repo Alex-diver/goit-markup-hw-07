@@ -158,11 +158,11 @@ body {
 .header-link-tel {
 	font-style: normal;
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 26px;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #434455;
-	margin-top: 284px;
+	margin-top: 210px;
 	margin-bottom: 40px;
 	margin-left: 40px;
 }
@@ -198,7 +198,7 @@ body {
 .heder-social-list {
 	display: flex;
 	padding-left: 40px;
-	gap: 56px;
+	gap: 26px;
 	margin-top: 48px;
 }
 
@@ -256,8 +256,6 @@ body {
 	flex-wrap: wrap;
 	column-gap: var(--basic-margin);
 	row-gap: 72px;
-	/* justify-content: center;
-	align-items: center; */
 }
 .about-advantages {
 	width: 264px;
@@ -286,7 +284,7 @@ body {
 
 /* ---------------------Features--------------------- */
 .features {
-	padding: 120px 0;
+	padding-bottom: 120px;
 }
 .features-title {
 	text-align: center;
@@ -616,8 +614,8 @@ body {
 	transition: opacity 250ms var(--basic-cubic), visibility 250ms var(--basic-cubic);
 }
 .modal {
-	width: 408px;
-	height: 576px;
+	width: 290px;
+	height: 584px;
 	background: #fcfcfc;
 	padding: 24px;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -654,7 +652,7 @@ body {
 }
 .mobal-title {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 11px;
 	line-height: 1.5;
 	text-align: center;
 	letter-spacing: 0.02em;
@@ -731,7 +729,7 @@ body {
 	display: flex;
 	align-items: center;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 8px;
 	line-height: calc(14 / 12);
 	letter-spacing: 0.04em;
 	color: #8e8f99;
