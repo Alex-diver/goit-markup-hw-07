@@ -405,6 +405,7 @@ body {
 	padding-bottom: 120px;
 }
 .filter-list {
+	flex-wrap: wrap;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
