@@ -171,7 +171,8 @@ body {
 	color: #404bbf;
 }
 .header-btn-mobail {
-	margin: 24px 16px 24px 249px;
+	margin: 24px 16px 24px;
+	margin-left: auto;
 	border: none;
 	background-color: transparent;
 }
@@ -203,7 +204,6 @@ body {
 
 /* ---------------------Hero--------------------- */
 .hero {
-	width: 480px;
 	height: 432px;
 	margin: 0 auto;
 	padding: 112px 0;
@@ -256,6 +256,8 @@ body {
 	flex-wrap: wrap;
 	column-gap: var(--basic-margin);
 	row-gap: 72px;
+	/* justify-content: center;
+	align-items: center; */
 }
 .about-advantages {
 	width: 264px;
@@ -274,8 +276,9 @@ body {
 	margin-bottom: 8px;
 }
 .about-text {
-	width: 310px;
-	font-size: 14px;
+	width: 290px;
+	font-weight: 500;
+	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
