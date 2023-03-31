@@ -58,11 +58,16 @@
 	}
 	.header-nav-wrap {
 		display: flex;
+		flex-direction: unset;
 		align-items: center;
 		max-width: unset;
 		height: unset;
 		position: static;
 		padding: 0;
+	}
+	.header-mobail {
+		margin-top: unset;
+		margin-bottom: unset;
 	}
 	.heder-btn-modal-close {
 		display: none;

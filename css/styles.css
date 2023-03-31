@@ -111,6 +111,8 @@ body {
 	color: var(--secondary-logo-color);
 }
 .header-nav-wrap {
+	display: flex;
+	flex-direction: column;
 	background-color: #ffffff;
 	max-width: 480px;
 	width: 100%;
@@ -119,6 +121,10 @@ body {
 	right: 0;
 	top: 0;
 	transition: transform 250ms var(--basic-cubic);
+}
+.header-mobail {
+	margin-top: auto;
+	margin-bottom: 40px;
 }
 .header-link {
 	display: flex;
@@ -162,7 +168,6 @@ body {
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #434455;
-	margin-top: 210px;
 	margin-bottom: 40px;
 	margin-left: 40px;
 }
