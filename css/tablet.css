@@ -117,6 +117,7 @@
 	}
 	.footer-logo {
 		margin-left: 90px;
+		justify-content: unset;
 	}
 
 	.footer-text {

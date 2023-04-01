@@ -209,6 +209,7 @@ body {
 
 /* ---------------------Hero--------------------- */
 .hero {
+	/* display: inline-flex; */
 	height: 432px;
 	margin: 0 auto;
 	padding: 112px 0;
@@ -216,6 +217,7 @@ body {
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-mob.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 }
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 	.hero {
@@ -258,6 +260,7 @@ body {
 }
 .about-list {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	column-gap: var(--basic-margin);
 	row-gap: 72px;
@@ -281,10 +284,12 @@ body {
 .about-text {
 	width: 290px;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /* ---------------------Features--------------------- */
@@ -503,7 +508,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--logo-color);
-	margin-left: 85px;
+	justify-content: center;
 }
 .footer-logo span {
 	color: var(--secondary-logo-footer-color);
